@@ -1,8 +1,8 @@
 /*
 Embedded   Firmware   module   of   Automatic Chocolate Vending Machine to send message
-“Insert Coin” to the serial port if switch SWin OFF
-“Take Chocolate” to the serial port if switch SW is ON
-Also,  turn  SW  to  OFF  state  after  a  delay  of  20  seconds  and  hence, change the message back to “Insert Coin”
+â€œInsert Coinâ€ to the serial port if switch SWi s OFF
+â€œTake Chocolateâ€ to the serial port if switch SW is ON
+Also,  turn  SW  to  OFF  state  after  a  delay  of  20  seconds  and  hence, change the message back to â€œInsert Coinâ€
 8051 microcontroller with XTAL = 16 MHz
 SW  is  connected  to  pin  1.1 which  switches  ON  after receiving the correct amount coin
 Data is transmitted serially at baud rate of 4800 with 8 Bit Data and 1 stop Bit.
