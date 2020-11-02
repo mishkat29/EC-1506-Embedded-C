@@ -19,15 +19,15 @@ void main(void)
 		mybyte=P0;
 		if(mybyte<100)
 		{
-			P1=mybyte;
+		  P1=mybyte;
 		  LED=1;
 		  MSdelay(250);
 		}
 		else
 		{
-			P3=mybyte;
-			LED=1;
-			MSdelay(300);
+		   P3=mybyte;
+		   LED=1;
+		   MSdelay(300);
 		}
 	}
 }
