@@ -22,5 +22,5 @@ void MSdelay(unsigned int dtime)
 {
 	unsigned int i,j;
 	for(i=0;i<dtime;i++)
-	  for(j=0;j<1275;j++)
+	  for(j=0;j<1275;j++);
 }	
