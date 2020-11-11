@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 task_struct
-pid t pid; /* process identifier */
+pid_t pid; /* process identifier */
 long state; /* state of the process */
 unsigned int time slice /* scheduling information */
 struct task struct *parent; /*this process’s parent */
