@@ -15,9 +15,9 @@
 	 {
 		 do
 		 {
-			 TR0=1;
-			 val=TL0;
-			 secmin(val);
+	           TR0=1;
+		   val=TL0;
+		   ecmin(val);
 		 }
 		 while(TF0==0);
 		 TR0=0;
@@ -26,9 +26,9 @@
  }
  void secmin(unsigned char val)
  {
-	 unsigned char sec, min;
-	 min= val/60;
-	 sec= val%60;
-	 P1=sec;
-	 P2=min;
+    unsigned char sec, min;
+    min= val/60;
+    sec= val%60;
+    P1=sec;
+    P2=min;
  }
